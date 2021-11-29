@@ -1,0 +1,9 @@
+# https://hub.docker.com/_/centos
+FROM centos:latest
+LABEL org.opencontainers.image.authors="githubfoam"
+
+
+RUN yum update -yq && \
+    yum install epel-release ansible -yq
+
+WORKDIR /tmp
