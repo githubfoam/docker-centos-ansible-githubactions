@@ -4,6 +4,7 @@ LABEL org.opencontainers.image.authors="githubfoam"
 
 
 RUN yum update -yq && \
-    yum install epel-release ansible -yq
+    yum install epel-release -yq && \
+    yum install ansible -yq
 
 WORKDIR /tmp
