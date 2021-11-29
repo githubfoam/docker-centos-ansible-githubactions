@@ -1,2 +1,3 @@
 # docker-centos-ansible-githubactions
-docker centos ansible githubactions
+[![centos ansible local CI workflow](https://github.com/githubfoam/docker-centos-ansible-githubactions/actions/workflows/centos-ansible-local-wf.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-centos-ansible-githubactions/actions/workflows/centos-ansible-local-wf.yml)  
+[![centos7 ansible local CI workflow](https://github.com/githubfoam/docker-centos-ansible-githubactions/actions/workflows/centos7-ansible-local-wf.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-centos-ansible-githubactions/actions/workflows/centos7-ansible-local-wf.yml)
